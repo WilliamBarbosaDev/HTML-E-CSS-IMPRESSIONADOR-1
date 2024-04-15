@@ -1,0 +1,35 @@
+.menu{
+    background-color: rgba(220, 220, 221, 0.911);
+    margin: 5px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.itens_menu{
+    display: flex;
+    flex-direction:row
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    text-decoration: none;
+}
+
+button{
+    border: 20px;
+}
